@@ -13,6 +13,7 @@ canvas.addEventListener('click', (event) => {
   console.log('x', x, 'y', y)
   // cr + ci = c's real and imaginary parts
   const [cr, ci] = screenToWorld(x, y)
+  console.log('cr', cr, 'ci', ci)
 })
 
 function plotPoint(x, y, radius = 5) {
